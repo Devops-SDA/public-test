@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Gym Website">
+    <title>Fitness Gym</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            text-align: center;
+            background-color: #444;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+            font-size: 18px;
+        }
+        section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .services-grid {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 30px;
+        }
+        .service-item {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            width: 30%;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+        }
+        .contact-form button {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to Fitness Gym</h1>
+    <p>Your Health, Our Priority</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#about">About Us</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="home">
+    <h2>Transform Your Body</h2>
+    <p>We provide state-of-the-art equipment and expert trainers to help you reach your fitness goals. Join our community and start your fitness journey today!</p>
+</section>
+
+<section id="about" style="background-color: #e0e0e0;">
+    <h2>About Us</h2>
+    <p>At Fitness Gym, we focus on delivering the best fitness experience. Whether you're a beginner or a pro, our gym has something for everyone.</p>
+</section>
+
+<section id="services">
+    <h2>Our Services</h2>
+    <div class="services-grid">
+        <div class="service-item">
+            <h3>Personal Training</h3>
+            <p>Get one-on-one training from our certified professionals.</p>
+        </div>
+        <div class="service-item">
+            <h3>Group Classes</h3>
+            <p>Join our exciting group fitness classes for a fun and motivating experience.</p>
+        </div>
+        <div class="service-item">
+            <h3>Nutrition Coaching</h3>
+            <p>Receive expert guidance on creating a diet plan that complements your fitness goals.</p>
+        </div>
+    </div>
+</section>
+
+<section id="contact" style="background-color: #f4f4f4;">
+    <h2>Contact Us</h2>
+    <p>If you have any questions or would like to book a trial, feel free to reach out!</p>
+    <div class="contact-form">
+        <form>
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2025 Fitness Gym. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
+
